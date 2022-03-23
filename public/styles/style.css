@@ -1,0 +1,143 @@
+/* header */
+.header img {
+    width: 60px;
+    height: 60px;
+    position: relative; top: 0px;
+}
+
+/* intro */
+.intro {
+    display: flex;
+}
+
+.about-title {
+    margin-top: 150px;
+}
+
+.content strong {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+
+.about-title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    max-width: 80%;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 30px;
+}
+
+/* body */
+#body {
+    background-color: #fef9f8;
+    padding-left: 6.5em;
+    padding-right: 6.5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 1.8rem;
+    margin: 8px;
+    line-height: 1.6;
+}
+
+/* content */
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.content h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.content h3 {
+    font-family: "Dela Gothic One", cursive;
+    font-size: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.content p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* interests */
+.interests .int-content  {
+    display: flex;
+    font-family: 'Courier Prime', monospace;
+    font-size: 22.5px;
+}
+
+.int-content ul {
+    margin-right: auto;
+}
+
+.interests .int-content img {
+    width: 400px;
+    height: 533px;
+}
+
+/* projects */
+.projects .portfolio {
+    display: block;
+}
+
+.project2 {
+    display: flex;
+}
+
+.weatherapp img {
+    height: 400px;
+}
+
+.project2 p {
+    margin-right: 2em;
+}
+
+/* certifications */
+.certif .certif-details {
+    display: flex;
+}
+
+.certif #cert-carousel {
+    margin-right: 3.5em;
+}
+
+/* skills */
+.skills .skills-content {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
+
+/* footer */
+.footer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding-top: 2rem;
+}
